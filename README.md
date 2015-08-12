@@ -14,7 +14,7 @@ To use the inline-loader, add it to your _webpack.config.js_ as follows:
 
 ```javascript
 loaders: [
-  { test: /\.svg$/i, loader: 'svginline' }
+  { test: /\.svg$/i, loader: 'inline' }
 ]
 ```
 
@@ -34,7 +34,7 @@ By default, the wrapper `<div>` will be inserted into the DOM at the end of the 
 
 ```javascript
 loaders: [
-  { test: /\.svg$/i, loader: 'svginline?parentId=[id]' }
+  { test: /\.svg$/i, loader: 'inline?parentId=[id]' }
 ]
 ```
 
