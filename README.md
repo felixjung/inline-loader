@@ -42,6 +42,7 @@ where `id` is the id of your overall wrapper element.
 
 ## Planned features
 - [ ] Support for chaining with other loaders such as the [image-webpack-loader](https://github.com/tcoopman/image-webpack-loader).
+- [ ] Write tests.
 - [ ] More flexibility regarding wrapper elements.
 - [ ] Support for adding classes to wrapper elements.
 
