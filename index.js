@@ -11,7 +11,7 @@ module.exports = function(content) {
 
   // Parse query into options and add resourcePath to options
   var options = utils.parseQuery(this.query);
-  options.svgPath = this.resourcePath;
+  options.resourcePath = this.resourcePath;
 
   var loaderCode = [
     '// inline-loader: inserts the content of a resource into the DOM.',
