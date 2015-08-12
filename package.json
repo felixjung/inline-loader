@@ -6,8 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:felixjung/inline-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "inline",
+    "svg"
+  ],
   "author": "Felix Jung",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixjung/inline-loader/issues"
+  },
   "dependencies": {
     "loader-utils": "^0.2.11"
   }
