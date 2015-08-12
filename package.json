@@ -17,7 +17,12 @@
     "svg"
   ],
   "author": "Felix Jung",
-  "license": "MIT",
+  "license": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/felixjung/inline-loader/blob/master/LICENSE"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/felixjung/inline-loader/issues"
   },

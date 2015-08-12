@@ -46,6 +46,9 @@ where `id` is the id of your overall wrapper element.
 - [ ] More flexibility regarding wrapper elements.
 - [ ] Support for adding classes to wrapper elements.
 
+## Release History
+- [ 2015-08-12 | 0.1.0 ) - Initial release
+
 ## Credit
 This is my first loader for webpack. I took a lot of ideas from the [file-loader](https://github.com/webpack/file-loader) and the [style-loaders](https://github.com/webpack/style-loader).
 
