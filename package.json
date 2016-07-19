@@ -1,6 +1,6 @@
 {
   "name": "inline-loader",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A webpack loader that wraps the content of a resource inside a <div> element and inserts it into the DOM.",
   "main": "index.js",
   "scripts": {
