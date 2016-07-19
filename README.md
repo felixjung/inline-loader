@@ -40,6 +40,25 @@ loaders: [
 
 where `id` is the id of your overall wrapper element.
 
+### RelativeTo and Prefix
+
+You can set the base path of your templates using the `relativeTo` parameters. `relativeTo` is used
+to strip a matching prefix from the absolute path of the input html file.
+
+The path up to and including the first `relativeTo` match is stripped, e.g.
+
+``` javascript
+require('!ngtemplate?relativeTo=/src/!html!/test/src/test.svg');
+// c.put('test.svg', ...)
+```
+
+To match the from the start of the absolute path prefix a '//', e.g.
+
+``` javascript
+require('!ngtemplate?relativeTo=//Users/felixjung/project/test/!html!/test/src/test.svg');
+// c.put('src/test.svg', ...)
+```
+
 ## Planned features
 - [ ] Support for chaining with other loaders such as the [image-webpack-loader](https://github.com/tcoopman/image-webpack-loader).
 - [ ] Write tests.
@@ -50,7 +69,7 @@ where `id` is the id of your overall wrapper element.
 - [ 2015-08-12 | 0.1.0 ) - Initial release
 
 ## Credit
-This is my first loader for webpack. I took a lot of ideas from the [file-loader](https://github.com/webpack/file-loader) and the [style-loaders](https://github.com/webpack/style-loader).
+This is my first loader for webpack. I took a lot of ideas from the [file-loader](https://github.com/webpack/file-loader) and the [style-loaders](https://github.com/webpack/style-loader). The `relativeTo` feature was taken from [ngtemplate-loader](https://github.com/WearyMonkey/ngtemplate-loader).
 
 ## License
 MIT ([http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php))
