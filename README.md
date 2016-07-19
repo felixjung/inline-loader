@@ -69,7 +69,7 @@ require('!ngtemplate?relativeTo=//Users/felixjung/project/test/!html!/test/src/t
 - [ 2015-08-12 | 0.1.0 ) - Initial release
 
 ## Credit
-This is my first loader for webpack. I took a lot of ideas from the [file-loader](https://github.com/webpack/file-loader) and the [style-loaders](https://github.com/webpack/style-loader).
+This is my first loader for webpack. I took a lot of ideas from the [file-loader](https://github.com/webpack/file-loader) and the [style-loaders](https://github.com/webpack/style-loader). The relativeTo feature was taken from [ngtemplate-loader](https://github.com/WearyMonkey/ngtemplate-loader)
 
 ## License
 MIT ([http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php))
