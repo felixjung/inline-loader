@@ -22,8 +22,8 @@ module.exports = function(content) {
   var resource = this.resource;
   var pathSepRegex = new RegExp(escapeRegExp(path.sep), 'g');
 
-  // if a unix path starts with // we treat is as an absolute path e.g. //Users/wearymonkey
-  // if we're on windows, then we ignore the / prefix as windows absolute paths are unique anyway e.g. C:\Users\wearymonkey
+  // if a unix path starts with // we treat is as an absolute path e.g. //Users/felixjung
+  // if we're on windows, then we ignore the / prefix as windows absolute paths are unique anyway e.g. C:\Users\felixjung
   if (relativeTo[0] == '/') {
       if (path.sep == '\\') { // we're on windows
           relativeTo = relativeTo.substring(1);
