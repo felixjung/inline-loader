@@ -1,6 +1,6 @@
 /*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Felix Jung @feju
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Felix Jung @feju
 */
 
 var path = require('path');
@@ -11,7 +11,7 @@ module.exports = function(content) {
 
   // Parse query into options and add resourcePath to options
   var options = utils.parseQuery(this.query);
-  options.resourcePath = this.resourcePath;
+  options.resourcePath = utils.stringifyRequest(this, this.resourcePath);
 
   var loaderCode = [
     '// inline-loader: inserts the content of a resource into the DOM.',
